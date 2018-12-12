@@ -1,0 +1,11 @@
+{sample program 2}
+read x;
+read y;
+read variable1;
+x:=x/500;
+y:=variable+1*(10+22);
+if y=x then 
+	repeat variable1:=variable1 - 6; until y=1;
+end
+write f = 1;
+{finish}

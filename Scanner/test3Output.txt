@@ -1,0 +1,41 @@
+read, reserved_word
+x, Identifier
+;, symbol
+ read x , Comment
+if, reserved_word
+0, Number
+<, symbol
+x, Identifier
+then, reserved_word
+ don’t compute if x <= 0 , Comment
+fact, Identifier
+:=, Symbol
+1, Number
+;, symbol
+repeat, reserved_word
+fact, Identifier
+:=, Symbol
+fact, Identifier
+*, symbol
+x, Identifier
+;, symbol
+x, Identifier
+:=, Symbol
+x, Identifier
+-, symbol
+1, Number
+;, symbol
+until, reserved_word
+x, Identifier
+=, symbol
+0, Number
+;, symbol
+write, reserved_word
+fact, Identifier
+ output fact x , Comment
+end, reserved_word
+y, Identifier
+=, symbol
+10, Number
+;, symbol
+end of program, Comment

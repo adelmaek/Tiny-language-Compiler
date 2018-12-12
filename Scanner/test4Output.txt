@@ -1,0 +1,36 @@
+ Sample program in tiny language, Comment
+read, reserved_word
+x, Identifier
+;, symbol
+input an integer , Comment
+if, reserved_word
+0, Number
+<, symbol
+x, Identifier
+then, reserved_word
+ don’t compute if x <= 0 , Comment
+fact, Identifier
+:=, Symbol
+1, Number
+;, symbol
+repeat, reserved_word
+fact, Identifier
+:=, Symbol
+fact, Identifier
+*, symbol
+x, Identifier
+;, symbol
+x, Identifier
+:=, Symbol
+x, Identifier
+-, symbol
+1, Number
+until, reserved_word
+x, Identifier
+=, symbol
+0, Number
+;, symbol
+write, reserved_word
+fact, Identifier
+ output factorial of x , Comment
+end, reserved_word
