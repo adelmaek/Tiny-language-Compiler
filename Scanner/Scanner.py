@@ -26,7 +26,7 @@ def special_symbol(char):
     else:
         return  False
 
-def main():
+def Scanner():
     class state (enum.Enum):
         start = 0
         inComment = 1
@@ -124,7 +124,8 @@ def main():
                     break
                 else:
                     continue
-
+def main():
+    Scanner()
 if __name__ =='__main__':
     main()
 
